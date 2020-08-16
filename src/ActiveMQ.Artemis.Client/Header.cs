@@ -44,5 +44,7 @@
                     _innerHeader.ResetField(2);
             }            
         }
+
+        public bool FirstAcquirer => _innerHeader.FirstAcquirer;
     }
 }
